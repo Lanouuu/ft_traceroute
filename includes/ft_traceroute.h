@@ -3,10 +3,9 @@
 
 # include <stdio.h>
 
-enum errors {
-    MISS_HOST,
+// enum errors {
 
-};
+// };
 
 void    print_help(void);
 int     dispatch_err(int e, char *s, int ret);
