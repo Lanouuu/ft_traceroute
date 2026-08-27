@@ -3,7 +3,7 @@
 void    print_help(void) {
     fprintf(stdout,
         "Usage:"
-            "\n\tft_ping [OPTION] [ARGUMENTS]\n\n"
+            "\n\tft_traceroute [OPTION] [ARGUMENTS]\n\n"
     );
     fprintf(stdout,
         "Options:"
