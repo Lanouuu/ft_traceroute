@@ -1,8 +1,8 @@
 #include "ft_traceroute.h"
 
 int dispatch_err(int e, char *s, int ret) {
-    (void)s;
     (void)ret;
-    (void)e;
+    if (e == BAD_OPT)
+        fprintf(stderr, "Bad option '%s' (argc 1)\n", s);
     return (1);
 }

@@ -2,10 +2,11 @@
 # define FT_TRACEROUTE
 
 # include <stdio.h>
+# include <string.h>
 
-// enum errors {
-
-// };
+enum errors {
+    BAD_OPT,
+};
 
 typedef struct s_traceroute {
     char    *hostname;
